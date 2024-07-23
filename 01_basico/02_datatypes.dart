@@ -13,4 +13,18 @@ void main() {
   String? nombre2;
   String interpolacion = '$nombre sii';
   print(nombre2);
+  print(interpolacion);
+
+  //booleans
+
+  bool isActive = true;
+  bool isNotActive = !isActive;
+  print(isNotActive);
+
+  //list
+
+  List<String> villanos = ['pepe', 'jeje', 'dart'];
+
+  villanos[0] = 'jeje';
+  print(villanos);
 }
