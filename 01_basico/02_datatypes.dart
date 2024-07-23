@@ -27,4 +27,8 @@ void main() {
 
   villanos[0] = 'jeje';
   print(villanos);
+
+  //sets
+  var villanos2 = {'let', 'pepe', 'perro'};
+  print(villanos2);
 }
