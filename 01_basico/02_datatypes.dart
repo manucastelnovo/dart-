@@ -6,4 +6,11 @@ void main() {
 
   int? c = null;
   print(c);
+
+  // string
+
+  String nombre = 'tony';
+  String? nombre2;
+  String interpolacion = '$nombre sii';
+  print(nombre2);
 }
