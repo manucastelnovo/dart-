@@ -29,6 +29,6 @@ void main() {
   print(villanos);
 
   //sets
-  var villanos2 = {'let', 'pepe', 'perro'};
+  Set<String> villanos2 = {'let', 'pepe', 'perro'};
   print(villanos2);
 }
