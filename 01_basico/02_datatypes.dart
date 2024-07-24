@@ -62,10 +62,10 @@ main() {
   // print( villanos2 );
 
   // ====== Maps            Diccionarios / Objetos literales
-  Map<int, dynamic> ironman = {
+  Map<int, Object> ironman = {
     1: 'Tony Stark',
     2: 'Inteligencia y el dinero',
-    3: 9000,
+    3: () => 1
   };
 
   // print( ironman[3] )
