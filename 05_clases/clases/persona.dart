@@ -3,11 +3,21 @@ class Persona {
 
   String? nombre;
   int? edad;
-  String? bio;
+  String _bio = 'soy una propiedad privada';
+
+  //get y sets
+
+  String get bio {
+    return _bio;
+  }
+
+  set bio(String text) {
+    _bio = text;
+  }
 
   //metodo
   @override
   String toString() {
-    return 'hola mundo';
+    return 'hola mundo $_bio';
   }
 }
