@@ -5,6 +5,14 @@ class Persona {
   int? edad;
   String _bio = 'soy una propiedad privada';
 
+  //constructor
+
+  Persona(this.edad, {this.nombre});
+  //contructor nombrado
+  Persona.persona30(this.nombre) {
+    this.edad = 30;
+  }
+
   //get y sets
 
   String get bio {
